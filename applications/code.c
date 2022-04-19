@@ -30,39 +30,10 @@ static void thread2_entry(void *param)
     for (count = 0; count < 10 ; count++)
     {
         /* 线程2打印计数值 */
-        rt_kprintf("thread2 count: %d\n", count);
+        rt_kprintf("Waaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaagh!!!!!!\n");
     }
-    rt_kprintf("thread2 exit\n");
-    /* 线程2运行结束后也将自动被系统删除
-    (线程控制块和线程栈依然在idle线程中释放) */
-}
-
-static char thread3_stack[1024];
-static struct rt_thread thread3;
-
-static void thread3_entry(void *param)
-{
-    while(1)
-    {
-        rt_kprintf("Waaaaaaaaaagh!!!!!!\n");
-        rt_kprintf("--The end\n");
-        rt_thread_mdelay(250);
-    }
-}
-
-static char thread4_stack[1024];
-static struct rt_thread thread4;
-
-static void thread4_entry(void *param)
-{
-    while(1)
-    {
-        rt_kprintf("\n");
-        rt_kprintf("--The end\n");
-        rt_thread_mdelay(250);
-    }
-}
-            
+    rt_kprintf("线程2已结束\n");
+}           
 
 
 /* 删除线程示例的初始化 */
@@ -87,22 +58,6 @@ int My_thread(void)
                    sizeof(thread2_stack),
                    THREAD_PRIORITY - 1, THREAD_TIMESLICE);
     rt_thread_startup(&thread2);
-
-    rt_thread_init(&thread3,
-                   "thread3",
-                   thread3_entry,
-                   RT_NULL,
-                   &thread3_stack[0],
-                   sizeof(thread3_stack),
-                   THREAD_PRIORITY + 1, THREAD_TIMESLICE);
-    rt_thread_startup(&thread3);
-//线程4 动态线程
-    rt_thread_create(&thread4,
-                    "thread4",
-                    thread4_entry,
-                    sizeof(thread4_stack),
-                    20,
-                    THREAD_TIMESLICE)
 
     return 0;
 }
