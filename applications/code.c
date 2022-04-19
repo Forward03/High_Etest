@@ -27,12 +27,12 @@ static void thread2_entry(void *param)
     rt_uint32_t count = 0;
 
     /* 线程2拥有较高的优先级，以抢占线程1而获得执行 */
-    for (count = 0; count < 10 ; count++)
+    for (count = 0; count < 30 ; count++)
     {
         /* 线程2打印计数值 */
         rt_kprintf("Waaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaagh!!!!!!\n");
     }
-    rt_kprintf("线程2已结束\n");
+    rt_kprintf("The thread is over now\n");
 }           
 
 
