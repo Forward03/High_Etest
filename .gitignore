@@ -9,3 +9,9 @@ build/rtthread-stm32.axf
 build/rtthread-stm32.build_log.htm
 build/rtthread-stm32.htm
 build/rtthread-stm32.map
+.vscode/uv4.log
+build/code.crf
+build/code.o
+build/project_rtthread-stm32.dep
+build/rtthread-stm32.axf
+build/rtthread-stm32.htm
