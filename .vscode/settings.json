@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "rtdevice.h": "c",
+        "rtthread.h": "c"
+    }
+}
