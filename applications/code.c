@@ -50,6 +50,20 @@ static void thread3_entry(void *param)
     }
 }
 
+static char thread4_stack[1024];
+static struct rt_thread thread4;
+
+static void thread4_entry(void *param)
+{
+    while(1)
+    {
+        rt_kprintf("\n");
+        rt_kprintf("--The end\n");
+        rt_thread_mdelay(250);
+    }
+}
+            
+
 
 /* 删除线程示例的初始化 */
 int My_thread(void)
@@ -82,6 +96,13 @@ int My_thread(void)
                    sizeof(thread3_stack),
                    THREAD_PRIORITY + 1, THREAD_TIMESLICE);
     rt_thread_startup(&thread3);
+//线程4 动态线程
+    rt_thread_create(&thread4,
+                    "thread4",
+                    thread4_entry,
+                    sizeof(thread4_stack),
+                    20,
+                    THREAD_TIMESLICE)
 
     return 0;
 }
@@ -90,22 +111,6 @@ int My_thread(void)
 MSH_CMD_EXPORT(My_thread, thread sample);
 
 
-/**
-@brief gfndakjf,jbiag
-ag kdngs,lvkonginar.
-amclbf
-b;fa
-\af
-;fagkanbokv[a]v[jagdsaf'/xva[
-    ]va/vk[d]v[a
-    [;[]apg[aoro]jgifab895w okjg9i3aw5h9gmkqr=v\IF 4;AF
-    ]A PSAG 
-    AK A[F
-    [EAK [KG]GDGKDPLSJG]A\K-=- \lf[okokgka\e -=\a
-     =pwhar]]]
-]]
-
- */
 
 
 
