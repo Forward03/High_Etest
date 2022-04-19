@@ -33,6 +33,7 @@ static void thread2_entry(void *param)
         rt_kprintf("Waaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaagh!!!!!!\n");
     }
     rt_kprintf("The thread is over now\n");
+    
 }           
 
 
