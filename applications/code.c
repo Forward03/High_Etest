@@ -89,3 +89,23 @@ int My_thread(void)
 /* 导出到 msh 命令列表中 */
 MSH_CMD_EXPORT(My_thread, thread sample);
 
+
+/**
+@brief gfndakjf,jbiag
+ag kdngs,lvkonginar.
+amclbf
+b;fa
+\af
+;fagkanbokv[a]v[jagdsaf'/xva[
+    ]va/vk[d]v[a
+    [;[]apg[aoro]jgifab895w okjg9i3aw5h9gmkqr=v\IF 4;AF
+    ]A PSAG 
+    AK A[F
+    [EAK [KG]GDGKDPLSJG]A\K-=- \lf[okokgka\e -=\a
+     =pwhar]]]
+]]
+
+ */
+
+
+
