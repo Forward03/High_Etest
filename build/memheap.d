@@ -4,13 +4,13 @@
 .\build\memheap.o: .\rtconfig.h
 .\build\memheap.o: rt-thread\include\rtdebug.h
 .\build\memheap.o: rt-thread\include\rtdef.h
-.\build\memheap.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\memheap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\build\memheap.o: rt-thread\include\libc/libc_signal.h
-.\build\memheap.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\signal.h
+.\build\memheap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\signal.h
 .\build\memheap.o: rt-thread\include\rtlibc.h
 .\build\memheap.o: rt-thread\include\libc/libc_stat.h
-.\build\memheap.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\memheap.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\time.h
+.\build\memheap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\build\memheap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
 .\build\memheap.o: rt-thread\include\libc/libc_errno.h
 .\build\memheap.o: rt-thread\include\libc/libc_fcntl.h
 .\build\memheap.o: rt-thread\include\libc/libc_ioctl.h

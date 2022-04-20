@@ -4,13 +4,13 @@
 .\build\drv_gpio.o: .\rtconfig.h
 .\build\drv_gpio.o: rt-thread\include\rtdebug.h
 .\build\drv_gpio.o: rt-thread\include\rtdef.h
-.\build\drv_gpio.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\drv_gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\build\drv_gpio.o: rt-thread\include\libc/libc_signal.h
-.\build\drv_gpio.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\signal.h
+.\build\drv_gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\signal.h
 .\build\drv_gpio.o: rt-thread\include\rtlibc.h
 .\build\drv_gpio.o: rt-thread\include\libc/libc_stat.h
-.\build\drv_gpio.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\drv_gpio.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\time.h
+.\build\drv_gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\build\drv_gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
 .\build\drv_gpio.o: rt-thread\include\libc/libc_errno.h
 .\build\drv_gpio.o: rt-thread\include\libc/libc_fcntl.h
 .\build\drv_gpio.o: rt-thread\include\libc/libc_ioctl.h
@@ -44,7 +44,7 @@
 .\build\drv_gpio.o: Libraries\CMSIS\Include\core_cmFunc.h
 .\build\drv_gpio.o: Libraries\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h
 .\build\drv_gpio.o: Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h
-.\build\drv_gpio.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdio.h
+.\build\drv_gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\build\drv_gpio.o: Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h
 .\build\drv_gpio.o: Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h
 .\build\drv_gpio.o: Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h

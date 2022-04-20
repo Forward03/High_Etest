@@ -3,13 +3,13 @@
 .\build\timeslice_sample.o: .\rtconfig.h
 .\build\timeslice_sample.o: rt-thread\include\rtdebug.h
 .\build\timeslice_sample.o: rt-thread\include\rtdef.h
-.\build\timeslice_sample.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\timeslice_sample.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\build\timeslice_sample.o: rt-thread\include\libc/libc_signal.h
-.\build\timeslice_sample.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\signal.h
+.\build\timeslice_sample.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\signal.h
 .\build\timeslice_sample.o: rt-thread\include\rtlibc.h
 .\build\timeslice_sample.o: rt-thread\include\libc/libc_stat.h
-.\build\timeslice_sample.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\timeslice_sample.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\time.h
+.\build\timeslice_sample.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\build\timeslice_sample.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
 .\build\timeslice_sample.o: rt-thread\include\libc/libc_errno.h
 .\build\timeslice_sample.o: rt-thread\include\libc/libc_fcntl.h
 .\build\timeslice_sample.o: rt-thread\include\libc/libc_ioctl.h
