@@ -13,8 +13,8 @@ static void thread1_entry(void *parameter)
 
     while (1)
     {
-        rt_kprintf("thread1 count: %d\n", count ++);
-        rt_thread_mdelay(500);
+        rt_kprintf("thread1 low pro %d\n", count ++);
+        rt_thread_mdelay(100);
     }
 }
 
@@ -40,15 +40,16 @@ static void thread2_entry(void *param)
 /* 删除线程示例的初始化 */
 int My_thread(void)
 {
-    /* 创建线程1，名称是thread1，入口是thread1_entry*/
-    tid1 = rt_thread_create("thread1",
-                            thread1_entry, RT_NULL,
-                            THREAD_STACK_SIZE,
-                            THREAD_PRIORITY, THREAD_TIMESLICE);
-    
-    /* 如果获得线程控制块，启动这个线程 */
-    if (tid1 != RT_NULL)
-        rt_thread_startup(tid1);
+        /* 创建线程1，名称是thread1，入口是thread1_entry*/
+        //（动态线程）
+        tid1 = rt_thread_create("thread1",
+                                thread1_entry, RT_NULL,
+                                THREAD_STACK_SIZE,
+                                THREAD_PRIORITY, THREAD_TIMESLICE);
+        
+        /* 如果获得线程控制块，启动这个线程 */
+        if (tid1 != RT_NULL)
+            rt_thread_startup(tid1);
 
     /* 初始化线程2，名称是thread2，入口是thread2_entry */
     rt_thread_init(&thread2,
