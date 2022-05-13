@@ -3,13 +3,13 @@
 .\build\mutex_sample.o: .\rtconfig.h
 .\build\mutex_sample.o: rt-thread\include\rtdebug.h
 .\build\mutex_sample.o: rt-thread\include\rtdef.h
-.\build\mutex_sample.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\mutex_sample.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdarg.h
 .\build\mutex_sample.o: rt-thread\include\libc/libc_signal.h
-.\build\mutex_sample.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\signal.h
+.\build\mutex_sample.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\signal.h
 .\build\mutex_sample.o: rt-thread\include\rtlibc.h
 .\build\mutex_sample.o: rt-thread\include\libc/libc_stat.h
-.\build\mutex_sample.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\mutex_sample.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+.\build\mutex_sample.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdint.h
+.\build\mutex_sample.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\time.h
 .\build\mutex_sample.o: rt-thread\include\libc/libc_errno.h
 .\build\mutex_sample.o: rt-thread\include\libc/libc_fcntl.h
 .\build\mutex_sample.o: rt-thread\include\libc/libc_ioctl.h

@@ -67,6 +67,81 @@ int My_thread(void)
 /* 导出到 msh 命令列表中 */
 MSH_CMD_EXPORT(My_thread, thread sample);
 
+/********************************************************************************************************/
+
+static void Time_turn_thread1(void *param)
+{
+    rt_uint32_t count = 0;
+
+    while(1)
+		{
+			count++;
+			rt_kprintf("The thread 1 is count to %d\n",count);
+			if( count == 100 )
+			{
+				rt_kprintf("The thread 1 is now over\n");
+				break;
+			}
+
+		}
+    
+}
+
+
+static void Time_turn_thread2(void *param)
+{
+    rt_uint32_t count = 0;
+
+    while(1)
+		{
+			count++;
+			rt_kprintf("The thread 2 is count to %d\n",count);
+			if( count == 100 )
+			{
+				rt_kprintf("The thread 2 is now over\n");
+				break;
+			}
+		}
+    
+}
+
+
+
+int Time_thread(void)
+{
+
+   tid1 = rt_thread_create("thread1",
+                           Time_turn_thread1, 
+													 RT_NULL,
+                           THREAD_STACK_SIZE,
+                           THREAD_PRIORITY,
+													 THREAD_TIMESLICE + 5);/* 时间片长度为 10	*/
+        
+   /* 如果获得线程控制块，启动这个线程 */
+   if (tid1 != RT_NULL)
+       rt_thread_startup(tid1);
+
+
+    rt_thread_init(&thread2,
+                   "thread2",
+                   Time_turn_thread2,
+                   RT_NULL,
+                   &thread2_stack[0],
+                   sizeof(thread2_stack),
+                   THREAD_PRIORITY,
+									 THREAD_TIMESLICE);/* 时间片长度为 5 */
+    rt_thread_startup(&thread2);
+
+    return 0;
+}
+
+
+
+
+
+
+
+
 
 
 

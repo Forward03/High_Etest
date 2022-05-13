@@ -3,13 +3,13 @@
 .\build\producer_consumer.o: .\rtconfig.h
 .\build\producer_consumer.o: rt-thread\include\rtdebug.h
 .\build\producer_consumer.o: rt-thread\include\rtdef.h
-.\build\producer_consumer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\producer_consumer.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdarg.h
 .\build\producer_consumer.o: rt-thread\include\libc/libc_signal.h
-.\build\producer_consumer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\signal.h
+.\build\producer_consumer.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\signal.h
 .\build\producer_consumer.o: rt-thread\include\rtlibc.h
 .\build\producer_consumer.o: rt-thread\include\libc/libc_stat.h
-.\build\producer_consumer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\producer_consumer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+.\build\producer_consumer.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdint.h
+.\build\producer_consumer.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\time.h
 .\build\producer_consumer.o: rt-thread\include\libc/libc_errno.h
 .\build\producer_consumer.o: rt-thread\include\libc/libc_fcntl.h
 .\build\producer_consumer.o: rt-thread\include\libc/libc_ioctl.h

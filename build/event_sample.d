@@ -3,13 +3,13 @@
 .\build\event_sample.o: .\rtconfig.h
 .\build\event_sample.o: rt-thread\include\rtdebug.h
 .\build\event_sample.o: rt-thread\include\rtdef.h
-.\build\event_sample.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\event_sample.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdarg.h
 .\build\event_sample.o: rt-thread\include\libc/libc_signal.h
-.\build\event_sample.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\signal.h
+.\build\event_sample.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\signal.h
 .\build\event_sample.o: rt-thread\include\rtlibc.h
 .\build\event_sample.o: rt-thread\include\libc/libc_stat.h
-.\build\event_sample.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\event_sample.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+.\build\event_sample.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdint.h
+.\build\event_sample.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\time.h
 .\build\event_sample.o: rt-thread\include\libc/libc_errno.h
 .\build\event_sample.o: rt-thread\include\libc/libc_fcntl.h
 .\build\event_sample.o: rt-thread\include\libc/libc_ioctl.h

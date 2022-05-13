@@ -3,13 +3,13 @@
 .\build\main.o: .\rtconfig.h
 .\build\main.o: rt-thread\include\rtdebug.h
 .\build\main.o: rt-thread\include\rtdef.h
-.\build\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\main.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdarg.h
 .\build\main.o: rt-thread\include\libc/libc_signal.h
-.\build\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\signal.h
+.\build\main.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\signal.h
 .\build\main.o: rt-thread\include\rtlibc.h
 .\build\main.o: rt-thread\include\libc/libc_stat.h
-.\build\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+.\build\main.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdint.h
+.\build\main.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\time.h
 .\build\main.o: rt-thread\include\libc/libc_errno.h
 .\build\main.o: rt-thread\include\libc/libc_fcntl.h
 .\build\main.o: rt-thread\include\libc/libc_ioctl.h

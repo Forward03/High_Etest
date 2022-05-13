@@ -4,13 +4,13 @@
 .\build\interrupt_sample.o: .\rtconfig.h
 .\build\interrupt_sample.o: rt-thread\include\rtdebug.h
 .\build\interrupt_sample.o: rt-thread\include\rtdef.h
-.\build\interrupt_sample.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\interrupt_sample.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdarg.h
 .\build\interrupt_sample.o: rt-thread\include\libc/libc_signal.h
-.\build\interrupt_sample.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\signal.h
+.\build\interrupt_sample.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\signal.h
 .\build\interrupt_sample.o: rt-thread\include\rtlibc.h
 .\build\interrupt_sample.o: rt-thread\include\libc/libc_stat.h
-.\build\interrupt_sample.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\interrupt_sample.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+.\build\interrupt_sample.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdint.h
+.\build\interrupt_sample.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\time.h
 .\build\interrupt_sample.o: rt-thread\include\libc/libc_errno.h
 .\build\interrupt_sample.o: rt-thread\include\libc/libc_fcntl.h
 .\build\interrupt_sample.o: rt-thread\include\libc/libc_ioctl.h

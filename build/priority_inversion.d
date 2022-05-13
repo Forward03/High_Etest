@@ -3,13 +3,13 @@
 .\build\priority_inversion.o: .\rtconfig.h
 .\build\priority_inversion.o: rt-thread\include\rtdebug.h
 .\build\priority_inversion.o: rt-thread\include\rtdef.h
-.\build\priority_inversion.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\priority_inversion.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdarg.h
 .\build\priority_inversion.o: rt-thread\include\libc/libc_signal.h
-.\build\priority_inversion.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\signal.h
+.\build\priority_inversion.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\signal.h
 .\build\priority_inversion.o: rt-thread\include\rtlibc.h
 .\build\priority_inversion.o: rt-thread\include\libc/libc_stat.h
-.\build\priority_inversion.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\priority_inversion.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+.\build\priority_inversion.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdint.h
+.\build\priority_inversion.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\time.h
 .\build\priority_inversion.o: rt-thread\include\libc/libc_errno.h
 .\build\priority_inversion.o: rt-thread\include\libc/libc_fcntl.h
 .\build\priority_inversion.o: rt-thread\include\libc/libc_ioctl.h

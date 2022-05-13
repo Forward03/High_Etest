@@ -4,13 +4,13 @@
 .\build\pin.o: .\rtconfig.h
 .\build\pin.o: rt-thread\include\rtdebug.h
 .\build\pin.o: rt-thread\include\rtdef.h
-.\build\pin.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\pin.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdarg.h
 .\build\pin.o: rt-thread\include\libc/libc_signal.h
-.\build\pin.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\signal.h
+.\build\pin.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\signal.h
 .\build\pin.o: rt-thread\include\rtlibc.h
 .\build\pin.o: rt-thread\include\libc/libc_stat.h
-.\build\pin.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\pin.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+.\build\pin.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdint.h
+.\build\pin.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\time.h
 .\build\pin.o: rt-thread\include\libc/libc_errno.h
 .\build\pin.o: rt-thread\include\libc/libc_fcntl.h
 .\build\pin.o: rt-thread\include\libc/libc_ioctl.h
@@ -32,7 +32,7 @@
 .\build\pin.o: rt-thread\components\drivers\include\drivers/serial.h
 .\build\pin.o: rt-thread\components\drivers\include\drivers/pin.h
 .\build\pin.o: rt-thread\components\finsh\finsh.h
-.\build\pin.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\build\pin.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
-.\build\pin.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\build\pin.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\build\pin.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdio.h
+.\build\pin.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\ctype.h
+.\build\pin.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdlib.h
+.\build\pin.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\string.h

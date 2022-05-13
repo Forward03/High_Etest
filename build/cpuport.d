@@ -3,13 +3,13 @@
 .\build\cpuport.o: .\rtconfig.h
 .\build\cpuport.o: rt-thread\include\rtdebug.h
 .\build\cpuport.o: rt-thread\include\rtdef.h
-.\build\cpuport.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\cpuport.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdarg.h
 .\build\cpuport.o: rt-thread\include\libc/libc_signal.h
-.\build\cpuport.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\signal.h
+.\build\cpuport.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\signal.h
 .\build\cpuport.o: rt-thread\include\rtlibc.h
 .\build\cpuport.o: rt-thread\include\libc/libc_stat.h
-.\build\cpuport.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\cpuport.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+.\build\cpuport.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\stdint.h
+.\build\cpuport.o: D:\718\Single-Chip Microcomputer stm 32\opertor\ARM\ARMCC\Bin\..\include\time.h
 .\build\cpuport.o: rt-thread\include\libc/libc_errno.h
 .\build\cpuport.o: rt-thread\include\libc/libc_fcntl.h
 .\build\cpuport.o: rt-thread\include\libc/libc_ioctl.h
