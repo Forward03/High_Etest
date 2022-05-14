@@ -29,8 +29,9 @@
 
 int main(void)
 {
-		Timer_thread();
-    return 0;
+	extern int Sem_thread();
+	Sem_thread();
+  return 0;
 }
 
 int led(void)

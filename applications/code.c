@@ -190,5 +190,102 @@ int Timer_thread(void)
     return 0;
 }
 
+/**************************************************************************************************************/
+
+struct rt_semaphore sem_1, sem_2, sem_3;
+static rt_thread_t Sem1;
+static rt_thread_t Sem2;
+static rt_thread_t Sem3;
+
+static void Sem_Func_1(void *param)
+{
+	rt_uint32_t count = 0;
+	while(1)
+	{
+		rt_sem_take(&sem_3, RT_WAITING_FOREVER);
+		count++;								/* 从一个侧面可以反应时间 */
+		rt_kprintf("The Sem 1 has done! The number is %d\n",count);
+		rt_sem_release(&sem_1);
+		if(count == 10)
+			break;
+		rt_thread_mdelay(10);
+	}
+	rt_kprintf("The Sem 1 has over!\n");
+    
+}
+
+
+static void Sem_Func_2(void *param)
+{
+	rt_uint32_t count = 0;
+	while(1)
+	{
+		rt_sem_take(&sem_1, RT_WAITING_FOREVER);
+		count++;								/* 从一个侧面可以反应时间 */
+		rt_kprintf("The Sem 2 has done! The number is %d\n",count);
+		rt_sem_release(&sem_2);
+		if(count == 10)
+			break;
+		rt_thread_mdelay(50);
+	}
+	rt_kprintf("The Sem 2 has over!\n");
+    
+}
+
+
+static void Sem_Func_3(void *param)
+{
+	rt_uint32_t count = 0;
+	while(1)
+	{
+		rt_sem_take(&sem_2, RT_WAITING_FOREVER);
+		count++;								/* 从一个侧面可以反应时间 */
+		rt_kprintf("The Sem 3 has done! The number is %d\n",count);
+		rt_sem_release(&sem_3);
+		if(count == 10)
+			break;
+		rt_thread_mdelay(20);
+	}
+	rt_kprintf("The Sem 3 has over!\n");
+    
+}
+
+
+
+int Sem_thread(void)
+{
+	rt_sem_init(&sem_1, "Sem1",   0, RT_IPC_FLAG_FIFO);
+  rt_sem_init(&sem_2, "Sem2",   0, RT_IPC_FLAG_FIFO);
+	rt_sem_init(&sem_3, "Sem3",   5, RT_IPC_FLAG_FIFO);
+
+	
+	Sem1 = rt_thread_create("First",
+                          Sem_Func_1,
+													RT_NULL,
+                          THREAD_STACK_SIZE,
+                          THREAD_PRIORITY + 1,
+													THREAD_TIMESLICE);
+	
+	Sem2 = rt_thread_create("Second",
+                          Sem_Func_2,
+													RT_NULL,
+                          THREAD_STACK_SIZE,
+                          THREAD_PRIORITY,
+													THREAD_TIMESLICE);
+	
+	Sem3 = rt_thread_create("Third",
+                          Sem_Func_3,
+													RT_NULL,
+                          THREAD_STACK_SIZE,
+                          THREAD_PRIORITY - 1,
+													THREAD_TIMESLICE);
+													
+	rt_thread_startup(Sem1);
+	rt_thread_startup(Sem2);
+	rt_thread_startup(Sem3);
+	
+	return 0;
+}
+
 
 
