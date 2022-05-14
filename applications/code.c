@@ -138,11 +138,57 @@ int Time_thread(void)
 
 
 
+/****************************************************************************************************************/
+/* 用于控制定时器 */
+static rt_timer_t timer1;
+static rt_timer_t timer2;
+static rt_uint32_t Timer_count = 0;
+static void Timer_thread1(void *param)
+{
+		Timer_count++;
+		rt_kprintf("The timer 1 has worked for %d time\n",Timer_count);
+		if( Timer_count == 10 )
+		{
+			rt_timer_stop(timer1);
+			rt_kprintf("The timer 1 is now over\n");
+		}
+
+    
+}
+
+
+static void Timer_thread2(void *param)
+{
+		rt_kprintf("The timer 2 has comes\n");    
+}
 
 
 
+int Timer_thread(void)
+{
+
+       /* 创建定时器1  周期定时器 */
+    timer1 = rt_timer_create("timer1",
+															Timer_thread1,
+															RT_NULL, 
+															10,
+															RT_TIMER_FLAG_PERIODIC);
+
+    /* 启动定时器1 */
+    if (timer1 != RT_NULL) rt_timer_start(timer1);
 
 
+    /* 创建定时器2 周期定时器 */
+    timer2 = rt_timer_create("timer2",
+															Timer_thread2,
+															RT_NULL,
+															30,
+															RT_TIMER_FLAG_PERIODIC);
+
+    /* 启动定时器2 */
+    if (timer2 != RT_NULL) rt_timer_start(timer2);
+    return 0;
+}
 
 
 

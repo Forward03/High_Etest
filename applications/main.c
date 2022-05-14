@@ -29,7 +29,7 @@
 
 int main(void)
 {
-		Time_thread();
+		Timer_thread();
     return 0;
 }
 
